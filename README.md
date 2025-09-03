@@ -146,6 +146,6 @@ enum enOperations {
 4. Be realistic and clear in function and variable names.
 
 ## References and Links
-- [Academy website](#https://programmingadvices.com)
-- [My video on YouTube about this game](#https://youtu.be/b6-b7Sa6F5k)
+- [Academy website](https://programmingadvices.com)
+- [My video on YouTube about this game](https://youtu.be/b6-b7Sa6F5k)
 - My email : yasinhamadbusiness@gmail.com
