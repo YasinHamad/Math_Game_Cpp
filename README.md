@@ -5,13 +5,12 @@ The purpose of this game is to practice programming basics. It is a math game. T
 
 ## Table of Contents
 [Introduction](#Introduction)
-[Tools used to build the project](#Tools used to build the project)
-[Project Requirements](#Project Requirements)
-[High Level Explanation](#High Level Explanation)
-[Low Level Explanation](#Low Level Explanation)
-[Things I learned](#Things I learned)
-[References and Links](#References and Links)
-
+[Tools used to build the project](#Tools-used-to-build-the-project)
+[Project Requirements](#Project-Requirements)
+[High Level Explanation](#High-Level-Explanation)
+[Low Level Explanation](#Low-Level-Explanation)
+[Things I learned](#Things-I-learned)
+[References and Links](#References-and-Links)
 
 ## Introduction
 I've built this game while studying programming basics at ProgrammingAdvices.com. You can find this project in Course[05]. It is the second project in that course. I'm grateful to this academy for teaching programming in a structured and practical way.
@@ -141,6 +140,6 @@ enum enOperations {
 4. Be realistic and clear in function and variable names.
 
 ## References and Links
-- [Academy website](#https://programmingadvices.com/)
+- [Academy website](#link)
 - [My video on YouTube about this game](#link)
 - My email : yasinhamadbusiness@gmail.com
