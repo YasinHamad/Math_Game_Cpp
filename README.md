@@ -4,13 +4,19 @@
 The purpose of this game is to practice programming basics. It is a math game. The program gives you math questions to answer.
 
 ## Table of Contents
-[Introduction](#Introduction)
-[Tools used to build the project](#Tools-used-to-build-the-project)
-[Project Requirements](#Project-Requirements)
-[High Level Explanation](#High-Level-Explanation)
-[Low Level Explanation](#Low-Level-Explanation)
-[Things I learned](#Things-I-learned)
-[References and Links](#References-and-Links)
+- [Math\_Game\_Cpp](#math_game_cpp)
+	- [Brief Description](#brief-description)
+	- [Table of Contents](#table-of-contents)
+	- [Introduction](#introduction)
+	- [Tools used to build the project](#tools-used-to-build-the-project)
+	- [Project Requirements](#project-requirements)
+	- [High Level Explanation](#high-level-explanation)
+	- [Low Level Explanation](#low-level-explanation)
+		- [Enums](#enums)
+		- [Structures](#structures)
+		- [Functions](#functions)
+	- [Things I learned](#things-i-learned)
+	- [References and Links](#references-and-links)
 
 ## Introduction
 I've built this game while studying programming basics at ProgrammingAdvices.com. You can find this project in Course[05]. It is the second project in that course. I'm grateful to this academy for teaching programming in a structured and practical way.
@@ -20,7 +26,7 @@ I've built this game while studying programming basics at ProgrammingAdvices.com
 - IDE: Visual Studio
 
 ## Project Requirements
-1. To see the game in action, watch this video [Math_Game](#link).
+1. To see the game in action, watch this video [Math_Game](#https://youtu.be/b6-b7Sa6F5k).
 2. Take from the user the number of questions they want to answer.
 3. Take from the user the operation type they want to be tested in. [ '+' , '-' , '/' , 'x' , 'Mix' ]. When they choose Mix, you need to select a random operation for each question.
 4. Take from the user the questions level. [ 'Easy' , 'Medium' , 'Hard' , 'Mix' ]. 
