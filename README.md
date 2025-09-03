@@ -71,59 +71,59 @@ The program follows the functional programming approach.
 2. **`stGameInfo`**: Stores all the info about the game, like the operation type and questions level.
 
 ### Functions
-1. ReadPositiveNum: Takes a message and keeps asking the user using this message until they enter a positive number.
+1. **ReadPositiveNum**: Takes a message and keeps asking the user using this message until they enter a positive number.
 
-2. IsNumberInArray: Takes an array and a number. It returns whether the number is in the array or not. 
+2. **IsNumberInArray**: Takes an array and a number. It returns whether the number is in the array or not. 
 
-3. ReadOperation and ReadQuestionsLevel: Keeps asking the user to enter one of the numbers showen on the screen, converts this number to enOperations(enQuestionsLevel) and returns it.
+3. **ReadOperation** and **ReadQuestionsLevel**: Keeps asking the user to enter one of the numbers showen on the screen, converts this number to enOperations(enQuestionsLevel) and returns it.
 
-4. ResetScreen: Clears the screen and turns it to black and white.
+4. **ResetScreen**: Clears the screen and turns it to black and white.
 
-5. ChangeScreenStyle: Takes an enResult variable  and changes the screen style based on it according to the point number 6 in the project requirements section.
+5. **ChangeScreenStyle**: Takes an enResult variable  and changes the screen style based on it according to the point number 6 in the project requirements section.
 
-6. PrintTabs and PrintBreakLine: `PrintBreakLine(3)` is easier than `cout << "\n\n\n";`
+6. **PrintTabs** and **PrintBreakLine**: `PrintBreakLine(3)` is easier than `cout << "\n\n\n";`
 
 7. RandomNumber: Takes two numbers and uses rand() to return a number between these two numbers.
 
-8. GetRandomOperation and GetRandomQuestionsLevel: Use function number 7 to return enOperations(enQuestionsLevel).
+8. GetRandomOperation and **GetRandomQuestionsLevel**: Use function number 7 to return enOperations(enQuestionsLevel).
 
-9. GetRandomNumberBasedOnLevel: Takes enQuestionsLevel and stRoundInfo variables. It makes a switch on the enQuestionsLevel variable and fills number_one and number_two with the appropriate values according to point number 4 in the project requirements section.
+9. **GetRandomNumberBasedOnLevel**: Takes enQuestionsLevel and stRoundInfo variables. It makes a switch on the enQuestionsLevel variable and fills number_one and number_two with the appropriate values according to point number 4 in the project requirements section.
 
-10. CalculateRoundResult: Takes stRoundInfo variable and makes a switch on the operation variable in it. It performs and saves in stRoundInfo.result the appropriate answer.
+10. **CalculateRoundResult**: Takes stRoundInfo variable and makes a switch on the operation variable in it. It performs and saves in stRoundInfo.result the appropriate answer.
 
-11. SetOperationInRound: Takes enOperations and stRoundInfo variable. It puts in stRoundInfo.operation the appropriate operation. If the enOperations variable is enOperations::mix_operation, it uses function number 8.1 to get a random operation.
+11. **SetOperationInRound**: Takes enOperations and stRoundInfo variable. It puts in stRoundInfo.operation the appropriate operation. If the enOperations variable is enOperations::mix_operation, it uses function number 8.1 to get a random operation.
 
-12. GetOperationAsString and GetQuestionLevelAsString: These functions are responsible for returning the string version of an enOperations(enQuestionsLevel) variable.
+12. **GetOperationAsString** and **GetQuestionLevelAsString**: These functions are responsible for returning the string version of an enOperations(enQuestionsLevel) variable.
 
-13. GetFinalResult: This function is responsible for checking if the user answer is correct or not. It returns an enResult variable.
+13. **GetFinalResult**: This function is responsible for checking if the user answer is correct or not. It returns an enResult variable.
 
-14. AddElementToArray: Takes an element and an array with its size(by reference). It increments the size by one and adds the element to it.
+14. **AddElementToArray**: Takes an element and an array with its size(by reference). It increments the size by one and adds the element to it.
 
-15. ResetGameInfo: This function is responsible for setting all the variables needed to restart the game to their default values.
+15. **ResetGameInfo**: This function is responsible for setting all the variables needed to restart the game to their default values.
 
-16. ReadGameInfo: Takes an stGameInfo variable(by reference) and fills:
+16. **ReadGameInfo**: Takes an stGameInfo variable(by reference) and fills:
 	- stGameInfo.number_of_rounds using function number 1.
 	- stGameInfo.operation and stGameInfo.questions_level using funcions in number 3.
 
-17. PrintRoundBody: This function is responsible for printing a question according to point number 5 in the project requirements section. It used functions number 6 and 12.
+17. **PrintRoundBody**: This function is responsible for printing a question according to point number 5 in the project requirements section. It used functions number 6 and 12.
 
-18. PrintResultBody: Prints the appropriate result on the screen according to point number 6 in the project requirements section. It uses function number 5 to change the screen style.
+18. **PrintResultBody**: Prints the appropriate result on the screen according to point number 6 in the project requirements section. It uses function number 5 to change the screen style.
 
-19. play_a_round: This function lets the user play a complete question. It uses functions (9, 11, 10, 17, 13, and 18).
+19. **play_a_round**: This function lets the user play a complete question. It uses functions (9, 11, 10, 17, 13, and 18).
 
-20. StartRounds: This function is responsible for playing x questions based on the number of questions the user has chosen. It uses function number 14 to add each question the array we have (stGameInfo.rounds).
+20. **StartRounds**: This function is responsible for playing x questions based on the number of questions the user has chosen. It uses function number 14 to add each question the array we have (stGameInfo.rounds).
 
-21. CountNumberOfWinningTimes: Takes an array and counts the number of right answers the user has in it.
+21. **CountNumberOfWinningTimes**: Takes an array and counts the number of right answers the user has in it.
 
-22. GetGameFinalResult: Returns and enPassFail value based on points number 7.1 and 7.2 logic in the project requirements section.
+22. **GetGameFinalResult**: Returns and enPassFail value based on points number 7.1 and 7.2 logic in the project requirements section.
 
-23. ChangeScreenToFinalStyle: Changes the screen to the final style at the end of the game. It uses function number 5.
+23. **ChangeScreenToFinalStyle**: Changes the screen to the final style at the end of the game. It uses function number 5.
 
-24. PrintGameResultsHeader: Prints the appropriate sentence according to points number 7.1 and 7.2 logic in the project requirements section.
+24. **PrintGameResultsHeader**: Prints the appropriate sentence according to points number 7.1 and 7.2 logic in the project requirements section.
 
-25. PrintGameResults: Prints the game results at the end of the game according to point number 7 in the project requirements section. It uses functions (21, 22, 23, 24, and 12).
+25. **PrintGameResults**: Prints the game results at the end of the game according to point number 7 in the project requirements section. It uses functions (21, 22, 23, 24, and 12).
 
-26. StartGame: This is the main function for this game. It makes a do-while to keep restarting the game when the user enters 'y' or 'Y'. It uses:
+26. **StartGame**: This is the main function for this game. It makes a do-while to keep restarting the game when the user enters 'y' or 'Y'. It uses:
 	- Function number 4 to reset the screen.
 	- Function number ResetGameInfo to set the appropriate variables to their default values at the beginning of each time the user plays the game.
 	- Function number 16 to read the game information from the user.
@@ -146,6 +146,6 @@ enum enOperations {
 4. Be realistic and clear in function and variable names.
 
 ## References and Links
-- [Academy website](#link)
-- [My video on YouTube about this game](#link)
+- [Academy website](#https://programmingadvices.com/)
+- [My video on YouTube about this game](#https://youtu.be/b6-b7Sa6F5k)
 - My email : yasinhamadbusiness@gmail.com
