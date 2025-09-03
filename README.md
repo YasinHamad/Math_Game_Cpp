@@ -26,7 +26,7 @@ I've built this game while studying programming basics at ProgrammingAdvices.com
 - IDE: Visual Studio
 
 ## Project Requirements
-1. To see the game in action, watch this video [Math_Game](#https://youtu.be/b6-b7Sa6F5k).
+1. To see the game in action, watch this video [Math_Game](https://youtu.be/b6-b7Sa6F5k).
 2. Take from the user the number of questions they want to answer.
 3. Take from the user the operation type they want to be tested in. [ '+' , '-' , '/' , 'x' , 'Mix' ]. When they choose Mix, you need to select a random operation for each question.
 4. Take from the user the questions level. [ 'Easy' , 'Medium' , 'Hard' , 'Mix' ]. 
